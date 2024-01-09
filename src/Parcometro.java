@@ -11,7 +11,6 @@ public class Parcometro {
         ticket.setCostoTotale(tariffa.getCostoOrario(), ore);
         return ticket;
     }
-
     @Override
     public String toString() {
         return "Il parcometro si trova in " + tariffa.getZona() + " e ha un costo orario di " + tariffa.getCostoOrario() + "€";
