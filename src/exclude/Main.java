@@ -1,4 +1,9 @@
-/*import java.util.Scanner;
+package exclude;
+
+import mainPackage.*;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +24,7 @@ public class Main {
         Tariffa tariffa = new Tariffa(zona, costoOrario);
 
         // Passo l'oggetto tariffa al costruttore della classe Parcometro
-        // per istanziare un nuovo oggetto "parcometro".
+        // per istanziare un nuovo oggetto "mainPackage".
 
         Parcometro parcometro = new Parcometro(tariffa);
 
@@ -37,4 +42,4 @@ public class Main {
         System.out.println(ticket);
 
     }
-}*/
+}

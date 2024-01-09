@@ -1,3 +1,5 @@
+package mainPackage;
+
 public class Parcometro {
     private Tariffa tariffa;
     public Parcometro(Tariffa tariffa) {
@@ -13,6 +15,6 @@ public class Parcometro {
     }
     @Override
     public String toString() {
-        return "Il parcometro si trova in " + tariffa.getZona() + " e ha un costo orario di " + tariffa.getCostoOrario() + "€";
+        return "Il mainPackage si trova in " + tariffa.getZona() + " e ha un costo orario di " + tariffa.getCostoOrario() + "€";
     }
 }

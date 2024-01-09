@@ -1,3 +1,5 @@
+package mainPackage;
+
 public class MainTest {
     public static void main(String[] args) {
         boolean errorFound = false;
@@ -5,7 +7,7 @@ public class MainTest {
         // Creo una tariffa per la "ZonaA" con costoOrario di 1.5
         Tariffa t = new Tariffa("ZonaA", 1.5);
 
-        // Creo un parcometro con la Tariffa appena creata
+        // Creo un mainPackage con la mainPackage.Tariffa appena creata
         Parcometro p = new Parcometro(t);
 
         // Controllo le zone
@@ -14,7 +16,7 @@ public class MainTest {
             System.out.println("Errore");
         }
 
-        // Chiedo al parcometro di emettermi un Ticket per 2 ore
+        // Chiedo al mainPackage di emettermi un mainPackage.Ticket per 2 ore
         int ore = 2;
         Ticket ticket = p.emettiTicket(ore);
 
@@ -33,7 +35,5 @@ public class MainTest {
         if (!errorFound) {
             System.out.println("Tutto corretto per ora!");
         }
-
-
     }
 }

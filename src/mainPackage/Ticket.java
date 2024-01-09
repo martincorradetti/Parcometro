@@ -1,3 +1,5 @@
+package mainPackage;
+
 public class Ticket {
     private double costoTotale;
     private Tariffa tariffa;

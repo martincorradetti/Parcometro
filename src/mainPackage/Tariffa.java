@@ -1,3 +1,5 @@
+package mainPackage;
+
 public class Tariffa {
     private String zona;
     private double costoOrario;
