@@ -1,5 +1,3 @@
-import static java.lang.System.currentTimeMillis;
-
 public class Parcometro {
     private Tariffa tariffa;
     public Parcometro(Tariffa tariffa) {
