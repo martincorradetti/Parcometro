@@ -15,6 +15,6 @@ public class Parcometro {
     }
     @Override
     public String toString() {
-        return "Il parcometro si trova in zona  " + tariffa.getZona() + " e ha un costo orario di " + tariffa.getCostoOrario() + "€";
+        return "Il parcometro si trova in zona  " + tariffa.getZona() + " e il ticket ha un costo orario di " + tariffa.getCostoOrario() + "€";
     }
 }
