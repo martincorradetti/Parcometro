@@ -5,7 +5,6 @@ public class Ticket {
     public Ticket(int ore) {
         this.ore = ore;
     }
-
     public void setCostoTotale(double costoOrario, int ore) {
         this.costoTotale = costoOrario * ore;
     }
